@@ -5,23 +5,23 @@ Icinga Web 2 - это мощный PHP-фреймворк для веб-прил
 
 ## Модуль мониторинга <a id="about-monitoring"></a>
 
-This is the core module for most Icinga Web 2 users.
+Это основной модуль для большинства пользователей Icinga Web 2.
 
-It provides an intuitive user interface for monitoring with Icinga 2.
-Especially there are lots of list and detail views (e.g. for hosts and services)
-you can sort and filter depending on what you want to see.
+Он обеспечивает интуитивно понятный пользовательский интерфейс для мониторинга с помощью Icinga 2.
+Особенно много списков и подробных представлений (например, для хостов и служб), 
+которые вы можете сортировать и фильтровать в зависимости от того, что хотите увидеть.
 
-You can also control the monitoring process itself by sending external commands to Icinga.
-Most such actions (like rescheduling a check) can be done with just a single click.
+Вы также можете управлять самим процессом мониторинга, посылая внешние команды Icinga.
+Большинство таких действий (например, перепланировка проверки) можно выполнить одним щелчком мыши.
 
-More details about this module can be found in [this chapter](../modules/monitoring/doc/01-About.md#monitoring-module-about).
+Более подробную информацию об этом модуле можно найти на [этой странице](../modules/monitoring/doc/01-About.md#monitoring-module-about).
 
 ## Установка <a id="about-installation"></a>
 
-Icinga Web 2 can be installed easily from packages from the official package repositories.
-Setting it up is also easy with the web based setup wizard.
+Icinga Web 2 можно легко установить из пакетов из официальных репозиториев пакетов.
+Настроить его также легко с помощью веб-мастера настройки.
 
-See [here](02-Installation.md#installation) for more information about the installation.
+Дополнительные сведения об установке см. [здесь](02-Installation.md#installation).
 
 ## Конфигурирование <a id="about-configuration"></a>
 
@@ -75,4 +75,6 @@ If you want to provide or update a translation for your own language, please hea
 
 ## Доступность <a id="about-accessibility"></a>
 
-В интерфейсе Icinga Web 2 могут видеть даже слепые - удобная навигация с помощью программы чтения с экрана и специальные темы для различных видов недостатков зрения позволяют каждому контролировать свои системы без каких-либо нарушений.
+В интерфейсе Icinga Web 2 могут видеть даже слепые - удобная навигация с помощью программы чтения с экрана 
+и специальные темы для различных видов недостатков зрения позволяют каждому контролировать 
+свои системы без каких-либо нарушений.
