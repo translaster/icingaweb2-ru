@@ -1,10 +1,10 @@
-# Preferences <a id="preferences"></a>
+# Предпочтения <a id="preferences"></a>
 
-Preferences are settings a user can set for their account only,
-for example the language and time zone.
+Предпочтения - это настройки, которые пользователь может установить только для своей учетной записи,
+например язык и часовой пояс.
 
-Preferences can be stored either in INI files or in a MySQL or in a PostgreSQL database. By default, Icinga Web 2 stores
-preferences in INI files beneath Icinga Web 2's configuration directory.
+Настройки могут храниться либо в файлах INI, либо в MySQL, либо в базе данных PostgreSQL. По умолчанию в Icinga Web 2
+сохраняет предпочтения в файлах INI в подкаталоге конфигурации Icinga Web 2.
 
 ```
 /etc/icingaweb2/<username>/config.ini

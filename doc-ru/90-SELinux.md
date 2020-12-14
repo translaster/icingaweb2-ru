@@ -1,6 +1,6 @@
 # SELinux <a id="selinux"></a>
 
-## Introduction <a id="selinux-introduction"></a>
+## Введение <a id="selinux-introduction"></a>
 
 SELinux is a mandatory access control (MAC) system on Linux which adds a fine granular permission system for access
 to all resources on the system such as files, devices, networks and inter-process communication.

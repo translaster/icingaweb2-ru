@@ -1,9 +1,9 @@
-# Troubleshooting <a id="troubleshooting"></a>
+# Устранение неисправностей <a id="troubleshooting"></a>
 
-## PageSpeed Module Incompatibility <a id="pagespeed-incompatibility"></a>
+## Несовместимость с модулем PageSpeed <a id="pagespeed-incompatibility"></a>
 
-It seems that Web 2 is not compatible with the PageSpeed module. Please disable the PageSpeed module using one of the
-following methods.
+Похоже, что Web 2 не совместим с модулем PageSpeed. Пожалуйста, отключите модуль PageSpeed одним из
+следующих способов.
 
 **Apache**:
 ```
@@ -14,4 +14,3 @@ ModPagespeedDisallow "*/icingaweb2/*"
 ```
 pagespeed Disallow "*/icingaweb2/*";
 ```
-

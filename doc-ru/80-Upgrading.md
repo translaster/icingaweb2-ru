@@ -1,4 +1,4 @@
-# Upgrading Icinga Web 2 <a id="upgrading"></a>
+# Обновление Icinga Web 2 <a id="upgrading"></a>
 
 Specific version upgrades are described below. Please note that upgrades are incremental. An upgrade from
 v2.6 to v2.8 requires to follow the instructions for v2.7 too.
@@ -130,7 +130,7 @@ Continue here for [MySQL](80-Upgrading.md#upgrading-mysql-db) and [PostgreSQL](8
 
 * The menu entry `Authorization` beneath `Config` has been renamed to `Authentication`. The role, user backend and user
   group backend configuration which was previously found beneath `Authentication` has been moved to `Application`.
-  
+
 ## Upgrading to Icinga Web 2 2.1.x <a id="upgrading-to-2.1.x"></a>
 
 * Since Icinga Web 2 version 2.1.3 LDAP user group backends respect the configuration option `group_filter`.
@@ -197,7 +197,7 @@ permissions = "*"
 After please log out from Icinga Web 2 and log in again for having all permissions granted.
 
 If you delegated authentication to your web server using the `autologin` backend, you have to switch to the `external`
-authentication backend to be able to log in again. The new name better reflects 
+authentication backend to be able to log in again. The new name better reflects
 what's going on. A similar change
 affects environments that opted for not storing preferences, your new backend is `none`.
 

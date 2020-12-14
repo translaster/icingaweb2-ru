@@ -1,11 +1,10 @@
 # Vagrant <a id="vagrant"></a>
 
-This chapter explains how to setup the development environment
-for Icinga Web 2 inside a Vagrant VM.
+В этой главе объясняется, как настроить среду разработки
+для Icinga Web 2 внутри виртуальной машины Vagrant.
 
-If you are looking for a demo setup, please use the official
-[Icinga Vagrant boxes](https://github.com/icinga/icinga-vagrant)
-instead.
+Если вы ищите демо-установку, пожалуйста вместо этого, воспользуйтесь
+официальным [Icinga Vagrant boxes](https://github.com/icinga/icinga-vagrant).
 
 ## <a id="vagrant-requirements"></a>Requirements
 

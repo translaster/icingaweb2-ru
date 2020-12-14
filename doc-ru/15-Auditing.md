@@ -1,14 +1,15 @@
-# Auditing <a id="auditing"></a>
+# Аудит <a id="auditing"></a>
 
-Auditing in Icinga Web 2 is possible with a separate [module](https://github.com/Icinga/icingaweb2-module-audit).
+Аудит в Icinga Web 2 возможен с использованием отдельного [модуля](https://github.com/Icinga/icingaweb2-module-audit).
 
-This module provides different logging facilities to store/record activities by Icinga Web 2 users.
+Этот модуль предоставляет различные средства ведения журнала для хранения/записи действий пользователей Icinga Web 2.
 
-Icinga Web 2 currently emits the following activities:
+Icinga Web 2 в настоящее время выполняет следующие действия:
 
-## Authentication
 
-Activity | Additional Data
----------|----------------
-login    | username
-logout   | username
+## Аутентификация
+
+Активность | Дополнительные данные
+-----------|----------------------
+login      | username
+logout     | username

@@ -1,15 +1,15 @@
-# Security <a id="security"></a>
+# Безопасность <a id="security"></a>
 
-Access control is a vital part of configuring Icinga Web 2 in a secure way.
-It is important that not every user that has access to Icinga Web 2 is able
-to do any action or to see any host and service. For example, it is useful to allow
-only a small group of administrators to change the Icinga Web 2 configuration,
-to prevent misconfiguration or security breaches. Another important use case is
-creating groups of users which can only see the fraction of the monitoring
-environment they are in charge of.
+Контроль доступа - важная часть безопасной настройки Icinga Web 2.
+Важно, что не каждый пользователь, имеющий доступ к Icinga Web 2, может
+выполнять каких-либо действий или просматривать любой хост и службу. Например,
+полезно разрешить только небольшой группе администраторов изменять конфигурацию
+Icinga Web 2, для предотвращения неправильной конфигурации или нарушения безопасности.
+Еще один важный вариант использования: создание групп пользователей, которые могут
+видеть только часть мониторинга окружающей среды, за которую они отвечают.
 
-This chapter will describe how to do the security configuration of Icinga Web 2
-and how to apply permissions and restrictions to users or groups of users.
+В этой главе описывается как настроить безопасность Icinga Web 2 и как применять
+разрешения и ограничения к пользователям или группам пользователей.
 
 ## Basics <a id="security-basics"></a>
 
